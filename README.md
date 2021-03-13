@@ -44,6 +44,7 @@ This repository contains multiple secondary projects along with the **Tweepywith
         - Random Forest
         - Support Vector Machine
         - Naive Bayes
+    - [Explainer Dashboard](https://explainerdashboard.readthedocs.io/en/latest/explainers.html) is used in this notebook to open up a Dash-based web page depicting a multitude of ML visualizations.
 
 ## Back to the main project...
 
