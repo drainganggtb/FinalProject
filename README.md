@@ -20,7 +20,7 @@ This repository contains multiple secondary projects along with the **Tweepywith
 - **GastroGuessr -- Abalone Age predictor**(*Abalone_ML.ipynb*)
     - This Jupyter Notebook file showcases a custom supervised machine learning algorithm to predict the age of abalone specimins based on other features given.
     - The most valuable preliminary visualization is the Seaborn heatmap of correlations between Age and other measurements. 
-    ![abalone](images/abalone.png)
+![abalone](images/abalone.png)
     - After preparing the data, two types of machine learning were run on it:
         - __Multivariable Linear Regression__ through Sklearn
         - __Classification ML__ was used in the form of KNN, Decision tree, Random Forest, and SVM.
