@@ -9,7 +9,7 @@ Technologies and libraries used in repo: Python, Pandas, Jupyter Notebook, Googl
 
 This repository contains multiple secondary projects along with the **TweepywithMongoDB.ipynb** and **DeepLearning_Model.ipynb** files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
 
-- **Diabetes Predictor**(*diabetes.ipynb* and *diabetes-streamlit-2.py*)<-------- add links
+- **Diabetes Predictor**([*diabetes.ipynb*](Diabetes.ipynb) and *diabetes-streamlit-2.py*)
     - The diabetes project was designed to predict the chance that an individual would be at risk for diabetes based on factors like number of pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, and age.
     - The .ipynb file cleaned the data and performed a Random Forest classifier to the tune of 88% accuracy. 
     - The **diabetes-streamlit-2.py** Python file was created with the Streamlit library to provide a simple interactive web interface made with minimal code.
