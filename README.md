@@ -3,6 +3,8 @@ The main focus of this project was to characterize the sentiments associated wit
 
 Technologies and libraries used in repo: Python, Pandas, Jupyter Notebook, Google Colaboratory, Sklearn, Mongo DB, PyMongo, NLTK, Tweepy, Matplotlib, Seaborn, Transformers, DistilBERT pretrained model, Numpy, Streamlit, Explainer Dashboard
 
+![words](images/data.png)
+
 ## What is contained in this repo?
 
 This repository contains multiple secondary projects along with the **TweepywithMongoDB.ipynb** and **DeepLearning_Model.ipynb** files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
@@ -15,6 +17,7 @@ This repository contains multiple secondary projects along with the **Tweepywith
         ```streamlit run diabetes-streamlit-2.py```
     - More infomation on Streamlit [here](https://docs.streamlit.io/en/stable/)
     - From a statistical standpoint, the predictions are not likely to be extremely predictive as they are taken from only females from a specific ethnic group. 
+
 ![diabeetus](images/diabetes.png)
 
 - **GastroGuessr -- Abalone Age predictor**(*Abalone_ML.ipynb*)
@@ -24,6 +27,7 @@ This repository contains multiple secondary projects along with the **Tweepywith
         - __Multivariable Linear Regression__ through Sklearn
         - __Classification ML__ was used in the form of KNN, Decision tree, Random Forest, and SVM.
     - Random forest proved to be the best model to predict age, and it seemed important that all factors provided be considered in the prediction.
+
 ![abalone](images/abalone.png)
 
 - **SLR** (*SLR.ipynb*)
