@@ -3,11 +3,13 @@ The main focus of this project was to characterize the sentiments associated wit
 
 Technologies and libraries used in repo: Python, Pandas, Jupyter Notebook, Google Colaboratory, Sklearn, Mongo DB, PyMongo, NLTK, Tweepy, Matplotlib, Seaborn, Transformers, DistilBERT pretrained model, Numpy, Streamlit, Explainer Dashboard
 
+![words](images/data.png)
+
 ## What is contained in this repo?
 
-This repository contains multiple secondary projects along with the **TweepywithMongoDB.ipynb** and **DeepLearning.ipynb** files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
+This repository contains multiple secondary projects along with the **TweepywithMongoDB.ipynb** and **DeepLearning_Model.ipynb** files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
 
-- **Diabetes**(*diabetes.ipynb* and *diabetes-streamlit-2.py*)<-------- add links
+- **Diabetes Predictor**([*diabetes.ipynb*](Diabetes.ipynb) and [*diabetes-streamlit-2.py*](diabetes-streamlit-2.py))
     - The diabetes project was designed to predict the chance that an individual would be at risk for diabetes based on factors like number of pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, and age.
     - The .ipynb file cleaned the data and performed a Random Forest classifier to the tune of 88% accuracy. 
     - The **diabetes-streamlit-2.py** Python file was created with the Streamlit library to provide a simple interactive web interface made with minimal code.
@@ -16,4 +18,37 @@ This repository contains multiple secondary projects along with the **Tweepywith
     - More infomation on Streamlit [here](https://docs.streamlit.io/en/stable/)
     - From a statistical standpoint, the predictions are not likely to be extremely predictive as they are taken from only females from a specific ethnic group. 
 
--**GastroGuessr -- Abalone Age predictor**(*Abalone_ML.ipynb*)
+![diabeetus](images/diabetes.png)
+
+- **GastroGuessr -- Abalone Age predictor**([*Abalone_ML.ipynb*](Abalone_ML.ipynb))
+    - This Jupyter Notebook file showcases a custom supervised machine learning algorithm to predict the age of abalone specimins based on other features given.
+    - The most valuable preliminary visualization is the Seaborn heatmap of correlations between Age and other measurements. 
+    - After preparing the data, two types of machine learning were run on it:
+        - __Multivariable Linear Regression__ through Sklearn
+        - __Classification ML__ was used in the form of KNN, Decision tree, Random Forest, and SVM.
+    - Random forest proved to be the best model to predict age, and it seemed important that all factors provided be considered in the prediction.
+
+![abalone](images/abalone.png)
+
+- **SLR** ([*SLR.ipynb*](SLR.ipynb))
+    - This resource functions as background on the ML topics that were incorporated into the final project, such as:
+        - Supervised vs. Unsupervised Learning
+        - Linear Regression (single variable and multiple)
+        - Polynomial Regression
+        - Exponential Regression
+        - Sinusoidal Regression
+        - Logarithmic Regression
+    - There is a plethora of helpful diagrams, images, and notes to explain what is really going on from a mathmatical perspective with these algorithms. 
+
+- **Simple Linear Regression - Classification** ([*Simple_Linear_Regression-Classification.ipynb*](Simple_Linear_Regression-Classification.ipynb))
+    - Similar to the SLR file, this image-filled-notebook functions as a resource on classification algorithms.
+    - The following machine learning techniques are covered:
+        - K-Nearest Neighbors
+        - Decision Trees
+        - Random Forest
+        - Support Vector Machine
+        - Naive Bayes
+    - [Explainer Dashboard](https://explainerdashboard.readthedocs.io/en/latest/explainers.html) is used in this notebook to open up a Dash-based web page depicting a multitude of ML visualizations.
+
+## Back to the main project...
+
