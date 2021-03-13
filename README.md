@@ -9,7 +9,7 @@ Technologies and libraries used in repo: Python, Pandas, Jupyter Notebook, Googl
 
 This repository contains multiple secondary projects along with the **TweepywithMongoDB.ipynb** and **DeepLearning_Model.ipynb** files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
 
-- **Diabetes Predictor**([*diabetes.ipynb*](Diabetes.ipynb) and *diabetes-streamlit-2.py*)
+- **Diabetes Predictor**([*diabetes.ipynb*](Diabetes.ipynb) and [*diabetes-streamlit-2.py*](diabetes-streamlit-2.py))
     - The diabetes project was designed to predict the chance that an individual would be at risk for diabetes based on factors like number of pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, and age.
     - The .ipynb file cleaned the data and performed a Random Forest classifier to the tune of 88% accuracy. 
     - The **diabetes-streamlit-2.py** Python file was created with the Streamlit library to provide a simple interactive web interface made with minimal code.
@@ -20,7 +20,7 @@ This repository contains multiple secondary projects along with the **Tweepywith
 
 ![diabeetus](images/diabetes.png)
 
-- **GastroGuessr -- Abalone Age predictor**(*Abalone_ML.ipynb*)
+- **GastroGuessr -- Abalone Age predictor**([*Abalone_ML.ipynb*](Abalone_ML.ipynb))
     - This Jupyter Notebook file showcases a custom supervised machine learning algorithm to predict the age of abalone specimins based on other features given.
     - The most valuable preliminary visualization is the Seaborn heatmap of correlations between Age and other measurements. 
     - After preparing the data, two types of machine learning were run on it:
@@ -30,7 +30,7 @@ This repository contains multiple secondary projects along with the **Tweepywith
 
 ![abalone](images/abalone.png)
 
-- **SLR** (*SLR.ipynb*)
+- **SLR** ([*SLR.ipynb*](SLR.ipynb))
     - This resource functions as background on the ML topics that were incorporated into the final project, such as:
         - Supervised vs. Unsupervised Learning
         - Linear Regression (single variable and multiple)
@@ -40,7 +40,7 @@ This repository contains multiple secondary projects along with the **Tweepywith
         - Logarithmic Regression
     - There is a plethora of helpful diagrams, images, and notes to explain what is really going on from a mathmatical perspective with these algorithms. 
 
-- **Simple Linear Regression - Classification** (*Simple_Linear_Regression-Classification.ipynb*)
+- **Simple Linear Regression - Classification** ([*Simple_Linear_Regression-Classification.ipynb*](Simple_Linear_Regression-Classification.ipynb))
     - Similar to the SLR file, this image-filled-notebook functions as a resource on classification algorithms.
     - The following machine learning techniques are covered:
         - K-Nearest Neighbors
