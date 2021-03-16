@@ -56,6 +56,7 @@ To summarize once again, the idea was to do [Twitter sentiment analysis](Twitter
 - The Tweepy Python Library was used to access Twitter API, and once tweets were collected, Mongo DB stored them. 
 - Next, the data was prepared for NLP analysis as positive/negative. 
 ![alt text](images/NLPpositivenegativetweets.png)
+
 - Following that, a Support Vector Machine (SVM) model using TF-IDF approach was run to classify the data given the result from NLTK. 
 ![alt text](images/SVMresultsvaccine.png)
 ![alt text](images/SVMresultsvaccine1.png)
