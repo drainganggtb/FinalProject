@@ -59,6 +59,7 @@ To summarize once again, the idea was to do [Twitter sentiment analysis](Twitter
 - Following that, a Support Vector Machine (SVM) model using a bag of words approach was run to classify the data given the result from NLTK. 
 ![alt text](images/SVMresultsvaccine.png)
 ![alt text](images/SVMresultsvaccine1.png)
+![confusion matrix](images/confusionmatrixvaccine.png)
 - In order to increase precision in the model, a deep learning approach was taken in the [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) file. The [🤗 Transformers](https://huggingface.co/transformers/quicktour.html) library provided a pre-trained sentiment model which was used in conjunction with TensorFlow Eager Execution to fine tune the approach. 
 ![alt text](images/DLvaccine.png)
 
