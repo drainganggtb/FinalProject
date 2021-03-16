@@ -7,7 +7,7 @@ The main focus of this project was to characterize the sentiments associated wit
 
 ## What is contained in this repo?
 
-This repository contains multiple secondary projects along with the [**TwitterforVaccine.ipynb**](TwitterforVaccine.ipynb) and [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
+This repository contains multiple secondary projects along with the [**TwitterforVACCINE.ipynb**](TwitterforVACCINE.ipynb) and [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
 
 - **Diabetes Predictor**([*diabetes.ipynb*](Diabetes.ipynb) and [*diabetes-streamlit-2.py*](diabetes-streamlit-2.py))
     - The diabetes project was designed to predict the chance that an individual would be at risk for diabetes based on factors like number of pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, and age.
@@ -52,7 +52,7 @@ This repository contains multiple secondary projects along with the [**Twitterfo
 
 ## Back to the main project...
 
-To summarize once again, the idea was to do [Twitter sentiment analysis](TwitterforVaccine.ipynb) with Natural Language Processing using the NLTK library with Python. The Tweepy Python Library was used to access Twitter API, and once tweets were collected, Mongo DB stored them. Next, the data was prepared for NLP analysis as positive/negative. Following that, a Support Vector Machine (SVM) model using a bag of words approach was run to classify the data given the result from NLTK. In order to increase precision in the model, a deep learning approach was taken in the [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) file. The [🤗 Transformers](https://huggingface.co/transformers/quicktour.html) library provided a pre-trained sentiment model which was used in conjunction with TensorFlow Eager Executeion to fine tune the approach. 
+To summarize once again, the idea was to do [Twitter sentiment analysis](TwitterforVACCINE.ipynb) with Natural Language Processing using the NLTK library with Python. The Tweepy Python Library was used to access Twitter API, and once tweets were collected, Mongo DB stored them. Next, the data was prepared for NLP analysis as positive/negative. Following that, a Support Vector Machine (SVM) model using a bag of words approach was run to classify the data given the result from NLTK. In order to increase precision in the model, a deep learning approach was taken in the [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) file. The [🤗 Transformers](https://huggingface.co/transformers/quicktour.html) library provided a pre-trained sentiment model which was used in conjunction with TensorFlow Eager Executeion to fine tune the approach. 
 
 Additionally, a [Flask app](flask_app/app.py) was created to take in user inputted text and characterize the sentiment of it using NLTK and VaderSentiment. This app is not connected to the dataset of tweets, but does increase interaction and functionality in regards to NLP.
 
