@@ -1,13 +1,13 @@
 # Sentiment Analysis of Tweets from Mongo using NLP, Machine Learning, and Deep Learning
-The main focus of this project was to characterize the sentiments associated with tweets that were scraped relating to machine learning and data science. Upon creating a livestreaming program to scrape tweets and add them to MongoDB, a sentiment analysis was performed using NLTK to return the percentage of positive and negative tweets. Next, the findings were corroborated and refined through Machine Learning (SVM) and Deep Learning (Transformers) methods.
+The main focus of this project was to characterize the sentiments associated with tweets that were scraped relating to COVID vaccines. Upon creating a livestreaming program to scrape tweets and add them to MongoDB, a sentiment analysis was performed using NLTK to return the percentage of positive and negative tweets. Next, the findings were corroborated and refined through Machine Learning (SVM) and Deep Learning (Transformers) methods.
 
 *Technologies and libraries used in repo*: Python, Pandas, Jupyter Notebook, Google Colaboratory, Sklearn, Mongo DB, PyMongo, NLTK, Tweepy, Matplotlib, Seaborn, Numpy, Transformers, TensorFlow, DistilBERT pretrained model, Streamlit, Explainer Dashboard
 
-![words](images/data.png)
+![words](images/covidwordcloud.png)
 
 ## What is contained in this repo?
 
-This repository contains multiple secondary projects along with the [**TweepywithMongoDB.ipynb**](TweepywithMongoDB.ipynb) and [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
+This repository contains multiple secondary projects along with the [**TwitterforVaccine.ipynb**](TwitterforVaccine.ipynb) and [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) files that are associated with the Twitter Sentiment Analysis project. The following resources have been made available in this repo:
 
 - **Diabetes Predictor**([*diabetes.ipynb*](Diabetes.ipynb) and [*diabetes-streamlit-2.py*](diabetes-streamlit-2.py))
     - The diabetes project was designed to predict the chance that an individual would be at risk for diabetes based on factors like number of pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, and age.
