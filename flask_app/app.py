@@ -2,6 +2,7 @@ from flask import Flask, request, render_template
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import nltk
 from nltk.corpus import stopwords
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 
@@ -9,14 +10,14 @@ from wtforms import Form, TextField, TextAreaField, validators, StringField, Sub
 nltk.download('stopwords')
 
 set(stopwords.words('english'))
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 
 @app.route('/')
 def my_form():
     return render_template('form.html')
 
 @app.route('/', methods=['POST'])
-def my_form_post(text1):
+def my_form_post():
     stop_words = stopwords.words('english')
     text1 = request.form['text1'].lower()
 
