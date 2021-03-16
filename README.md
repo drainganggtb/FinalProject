@@ -56,7 +56,7 @@ To summarize once again, the idea was to do [Twitter sentiment analysis](Twitter
 - The Tweepy Python Library was used to access Twitter API, and once tweets were collected, Mongo DB stored them. 
 - Next, the data was prepared for NLP analysis as positive/negative. 
 - Following that, a Support Vector Machine (SVM) model using a bag of words approach was run to classify the data given the result from NLTK. 
-- In order to increase precision in the model, a deep learning approach was taken in the [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) file. The [🤗 Transformers](https://huggingface.co/transformers/quicktour.html) library provided a pre-trained sentiment model which was used in conjunction with TensorFlow Eager Executeion to fine tune the approach. 
+- In order to increase precision in the model, a deep learning approach was taken in the [**DeepLearning_Model.ipynb**](DeepLearning_Model.ipynb) file. The [🤗 Transformers](https://huggingface.co/transformers/quicktour.html) library provided a pre-trained sentiment model which was used in conjunction with TensorFlow Eager Execution to fine tune the approach. 
 
 Additionally, a [Flask app](flask_app/app.py) was created to take in user inputted text and characterize the sentiment of it using NLTK and VaderSentiment. This app is not connected to the dataset of tweets, but does increase interaction and functionality in regards to NLP.
 
