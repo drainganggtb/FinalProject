@@ -1,4 +1,4 @@
-# Sentiment Analysis of Tweets from Twitter using MONGO,NLP, Machine Learning, and Deep Learning
+# Sentiment Analysis of Tweets from Twitter using Mongo,NLP, Machine Learning, and Deep Learning
 The main focus of this project was to characterize the sentiments associated with tweets that were scraped relating to COVID vaccines. Upon creating a livestreaming program to scrape tweets and add them to MongoDB, a sentiment analysis was performed using NLTK to return the percentage of positive and negative tweets. Next, the findings were corroborated and refined through Machine Learning (SVM) and Deep Learning (Transformers) methods.
 
 *Technologies and libraries used in repo*: Python, Pandas, Jupyter Notebook, Google Colaboratory, Sklearn, Mongo DB, PyMongo, NLTK, Tweepy, Matplotlib, Seaborn, Numpy, Transformers, TensorFlow, DistilBERT pretrained model, Streamlit, Explainer Dashboard
