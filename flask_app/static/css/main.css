@@ -1,0 +1,12 @@
+div.form {
+    display: block;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    width:250px;
+}
+
+#jumbotron{
+    background-color: palegoldenrod;
+}
