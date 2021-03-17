@@ -20,7 +20,7 @@ def inference(row, scaler, model, feat_cols):
 #Add streamlit title, add descriptions and load an attractive image
 st.title('Diabetes Prediction App')
 st.write('The data for the following example is originally from the National Institute of Diabetes and Digestive and Kidney Diseases and contains information on females at least 21 years old of Pima Indian heritage. This is a sample application and cannot be used as a substitute for real medical advice.')
-image = Image.open('diabetes.jpeg')
+image = Image.open('images/diabetes.jpeg')
 st.image(image, use_column_width=True)
 st.write('Please fill in the details of the person under consideration in the left sidebar and click on the button below!')
 
