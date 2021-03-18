@@ -17,7 +17,7 @@ This repository contains multiple secondary projects along with the [**Twitterfo
         ```streamlit run diabetes-streamlit-2.py```
         - More infomation on Streamlit [here](https://docs.streamlit.io/en/stable/)
     - From a statistical standpoint, the predictions are not likely to be extremely predictive as they are taken from only females from a specific ethnic group -- a larger, more diverse dataset should be used.
-
+![diabetes_report](images/diabetes_report.png)
 ![diabeetus](images/diabetes.png)
 
 - **GastroGuessr -- Abalone Age predictor**([*Abalone_ML.ipynb*](Abalone_ML.ipynb))
